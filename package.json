@@ -1,0 +1,53 @@
+{
+  "name": "jeft-vue-longtap",
+  "version": "0.1.1",
+  "description": "vue-longtap-plugin",
+  "main": "lib/jeft-vue-longtap.umd.min.js",
+  "keywords": [
+    "vue",
+    "vue-longtap",
+    "jeft-vue",
+    "jeft-vue-longtap",
+    "长按事件"
+  ],
+  "author": "jeft-hai",
+  "private": false,
+  "license": "MIT",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/JEFT-hai/jeft-vue-longtap"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name jeft-vue-longtap --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
